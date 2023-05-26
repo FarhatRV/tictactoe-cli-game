@@ -1,7 +1,7 @@
-package com.github.robertbraeutigam.tictactoe.console;
+package com.github.farhatrv.tictactoe.console;
 
-import com.github.robertbraeutigam.tictactoe.human.UI;
-import com.github.robertbraeutigam.tictactoe.View.Cell;
+import com.github.farhatrv.tictactoe.human.UI;
+import com.github.farhatrv.tictactoe.View.Cell;
 import static java.util.Arrays.asList;
 import java.util.stream.Collectors;
 

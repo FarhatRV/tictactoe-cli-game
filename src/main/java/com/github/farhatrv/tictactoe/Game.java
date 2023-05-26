@@ -1,4 +1,4 @@
-package com.github.robertbraeutigam.tictactoe;
+package com.github.farhatrv.tictactoe;
 
 /**
  * Main logic of the Tic-Tac-Toe game. It is played on a Board by

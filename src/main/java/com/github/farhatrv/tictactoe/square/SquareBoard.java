@@ -1,7 +1,7 @@
-package com.github.robertbraeutigam.tictactoe.square;
+package com.github.farhatrv.tictactoe.square;
 
-import com.github.robertbraeutigam.tictactoe.Board;
-import com.github.robertbraeutigam.tictactoe.View;
+import com.github.farhatrv.tictactoe.Board;
+import com.github.farhatrv.tictactoe.View;
 import java.util.stream.IntStream;
 import java.util.function.Consumer;
 import static java.lang.Math.abs;

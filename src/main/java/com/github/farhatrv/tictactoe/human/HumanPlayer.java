@@ -1,7 +1,7 @@
-package com.github.robertbraeutigam.tictactoe.human;
+package com.github.farhatrv.tictactoe.human;
 
-import com.github.robertbraeutigam.tictactoe.Player;
-import com.github.robertbraeutigam.tictactoe.View;
+import com.github.farhatrv.tictactoe.Player;
+import com.github.farhatrv.tictactoe.View;
 
 public final class HumanPlayer implements Player {
    private final View view;

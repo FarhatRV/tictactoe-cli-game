@@ -1,4 +1,4 @@
-package com.github.robertbraeutigam.tictactoe;
+package com.github.farhatrv.tictactoe;
 
 public interface Board {
    /**

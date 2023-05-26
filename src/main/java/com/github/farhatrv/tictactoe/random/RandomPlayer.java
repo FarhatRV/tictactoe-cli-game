@@ -1,8 +1,8 @@
-package com.github.robertbraeutigam.tictactoe.random;
+package com.github.farhatrv.tictactoe.random;
 
-import com.github.robertbraeutigam.tictactoe.Player;
-import com.github.robertbraeutigam.tictactoe.View;
-import com.github.robertbraeutigam.tictactoe.View.Cell;
+import com.github.farhatrv.tictactoe.Player;
+import com.github.farhatrv.tictactoe.View;
+import com.github.farhatrv.tictactoe.View.Cell;
 import java.util.Random;
 import java.util.List;
 import java.util.stream.Collectors;
