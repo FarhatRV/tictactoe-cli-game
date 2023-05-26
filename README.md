@@ -7,5 +7,6 @@ Encapsulation, Information Hiding, Dependency Inversion.
 To run the game, just type:
 
 ```
+ mvn clean package
  mvn exec:java
 ```
