@@ -1,7 +1,7 @@
-Tic-Tac-Toe
+Game Builder
 ====================
 
-Showcase for an object-oriented Tic-Tac-Toe, demonstrating some OO concepts like
+Showcase for an object-oriented Game Builder, demonstrating some OO concepts like
 Encapsulation, Information Hiding, Dependency Inversion.
 
 To run the game, just type:
@@ -51,45 +51,60 @@ Code review guidelines:
       * document CI changes as part of the feature in PR or ticket or README
 
 ---
-I/o intensive
--asia
-----1m requests sec, create lobbies, register users, remove users, user badge, profile
--europe
+**I/o intensive**
+* asia
+** 1m requests sec, create lobbies, register users, remove users, user badge, profile
+* europe
 
-Compute intensive
+**Compute intensive**
 product + product_availabities + product_categories -> 10items, sort - compute
+
 ---
-object oriented - functionality is driven by Object - you pass data to function,
-functional programming - you pass function to an object, streams of object, you pass the logic to that stream
+
+**object oriented** - functionality is driven by Object - you pass data to function,
+
+**functional programming** - you pass function to an object, streams of object, you pass the logic to that stream
 
 functional
+```
 getProducts().stream().map(DTO(productEntity))
 .sort(when(sortByCriteria) popularity->PopularityComparator, lowToHigh->LowHighComparator)
+```
 
 OOPS
+```
 getProducts().convertToPopularitySortList()
 getProducts().convertToLTHSortList()
-
+```
 -----
+```
 var csvRecords = csv.read()
 
 csvRecords.getTop10Rows()
 csv.close()
+```
 -----
+
 Bad
+```
 for(product in getProducts()){
 val productDTO = new ProductMapper().map(product)
 }
+```
 Good
+```
 val mapper = new ProductMapper
 for(product in getProducts()){
 val productDTO = mapper.map(product)
 }
+```
 -----
+```
 get products for mobile, TVs
 DBCall(getElectronicProducts) - mobile
 DBCall(getElectronicProducts) - TV
 
 getRegion()->for each region, get sales, -> sales, get product().....
 singleQuery - select product join sales join region group by, with(allregions as select * from region) select sales join allregions,
+```
 ----
